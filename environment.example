@@ -1,0 +1,14 @@
+# Supported environment variables. All keys are optional; never commit real keys.
+# Desktop analysis also accepts a password-mode, session-only key in its settings.
+OPENROUTER_API_KEY=
+OPENROUTER_MODEL=openai/gpt-4.1-mini
+
+# Only needed for the optional OpenAI cloud transcription benchmark.
+# The live desktop MVP uses local Whisper, not this API.
+OPENAI_API_KEY=
+
+# Optional headless test override only. Leave unset for normal desktop use.
+# QT_QPA_PLATFORM=offscreen
+
+# The app does not automatically load .env files.
+# Model, budget, token prices, audio devices, retention, and TTS are selected in the UI.

@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+dist/
+*.egg-info/
+recordings/
+benchmark-results/
+models/
+*.wav
+*.flac
+*.mp3

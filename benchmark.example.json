@@ -1,0 +1,20 @@
+[
+  {
+    "id": "english-1",
+    "audio": "recordings/english.wav",
+    "reference": "What prevents a retry from charging the customer twice?",
+    "group": "english"
+  },
+  {
+    "id": "bangla-1",
+    "audio": "recordings/bangla.wav",
+    "reference": "একই অনুরোধ আবার পাঠালে গ্রাহকের কাছ থেকে কি দুবার টাকা কাটা হবে?",
+    "group": "bangla"
+  },
+  {
+    "id": "mixed-1",
+    "audio": "recordings/mixed.wav",
+    "reference": "Redis বন্ধ হলে retry করব, কিন্তু idempotency key কোথায় রাখব?",
+    "group": "mixed"
+  }
+]
